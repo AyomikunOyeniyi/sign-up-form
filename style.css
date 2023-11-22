@@ -1,0 +1,45 @@
+html {
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(assets/Norse-Bold.otf);
+    font-weight: bold;
+}
+
+
+.left-side {
+    background-image: url(assets/sign-up-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40vw;
+}
+
+.logo-container {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    height: 100px;
+}
+
+.left-side > div {
+    color: white;
+    font-family: "Norse Bold", sans-serif;
+    font-size: 4.2rem;
+}
+
