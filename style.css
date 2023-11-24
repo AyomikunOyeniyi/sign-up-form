@@ -27,13 +27,6 @@ body {
     align-items: center;
 }
 
-.right-side {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
 .logo-container {
     margin-top: 150px;
     margin-bottom: 350px;
@@ -60,6 +53,29 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+/* Styling for right side */
+.right-side {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.text-holder, .stand-alone-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 100px;
+}
+
+.stand-alone-text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+p {
+    margin: 0;
 }
 
 .form-holder {
@@ -110,3 +126,14 @@ label {
     font-size: 0.7rem;
 }
 
+button {
+    background-color: #596D48;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
