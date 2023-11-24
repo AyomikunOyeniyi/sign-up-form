@@ -58,15 +58,17 @@ a {
 /* Styling for right side */
 .right-side {
     height: 100vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    background-color: #fefefee4;
 }
 
 .text-holder, .stand-alone-text {
     font-weight: bold;
     font-size: 1.2rem;
     margin-top: 100px;
+    margin-left: 50px;
 }
 
 .stand-alone-text {
@@ -79,7 +81,9 @@ p {
 }
 
 .form-holder {
-    box-shadow: 3px;
+    background-color: white;
+    box-shadow: 0px 4px 10px gray;
+    padding: 50px;
 }
 
 .form-title {
@@ -135,5 +139,16 @@ button {
     border: none;
     color: white;
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
 
+.account-text {
+    padding-left: 50px;
+}
+
+.log-in {
+    color: #596D48;
+    font-weight: bold;
 }
